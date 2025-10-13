@@ -48,10 +48,14 @@ void AMainController::ParseInputDevice()
 
   During the beta phase, a colleague updated and refined the menus, including the classes and the animated Button originally created in the alpha, which gave me the opportunity to focus on improving the HUD.
 
-  Here is how the main menu and pause menu looked during the alpha phase, based on the original concept I worked with:
+  Here is how the main menu and pause menu looked during the alpha phase, based on the concept given to me at that time:
 
 - #### Main Menu (Alpha)
+  <img width="400" alt="Main-menu-alpha" src="https://github.com/user-attachments/assets/debc381b-c6d8-430c-94ab-862afb22ba53" />
+
 - #### Pause Menu (Alpha)
+  <img width="400" alt="Pause-menu-alpha" src="https://github.com/user-attachments/assets/39f54468-14ad-484f-b7f1-a0b3ef0a0974" />
+
 - #### Chapters Menu
   Displays only the unlocked chapters along with their corresponding images and descriptions. When a chapter button is pressed, the system retrieves the button’s index, looks up the corresponding chapter name from an array, and opens the selected level.
   
