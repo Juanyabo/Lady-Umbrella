@@ -59,7 +59,7 @@ void AMainController::ParseInputDevice()
 ---
 - ### HUD
   I developed a custom HUD class that handles the creation and visibility logic of various widgets, allowing the game’s custom controller to manage and display them as needed. The widgets I implemented include the umbrella crosshair, umbrella ammo, grenade indicator, and skip cinematic. They are only displayed when the player is holding the umbrella or during combat except for the skip cinematic widget.
-- #### Crosshair:
+- #### Crosshair
    Receives the umbrella spread and range values and visually represents them.
   
     Changes color when the umbrella is in range to hit an enemy or a destructible object.
@@ -72,7 +72,7 @@ void AMainController::ParseInputDevice()
     <img width="400" alt="On-enemy" src="https://github.com/user-attachments/assets/00b88445-57f2-4d5a-abe8-77b974c29d49" />
     <img width="400" alt="Hit-marker" src="https://github.com/user-attachments/assets/e4ee6b69-725b-4a55-998f-c8dc62dd2c23" />
 
-  - #### Ammo:
+  - #### Ammo
       Displays the number of bullets via dynamically generated bullet images and numeric display of bullets in reserve.
 
       Animates when ammo is low to prompt the player to reload.
@@ -93,13 +93,13 @@ void AMainController::ParseInputDevice()
       <img width="400" alt="No-ammo" src="https://github.com/user-attachments/assets/a459cab3-87d3-4bed-87dc-cfbe4e25d0ea" />
       <img width="400" alt="Shield" src="https://github.com/user-attachments/assets/be65f4b4-3bd4-4754-8f45-fe7d7bf3ba84" />
 
-  - #### Grenade Indicator:
+  - #### Grenade Indicator
       Shows the location of grenades thrown by enemies, adjusting depending on whether the grenade is on-screen or off-screen.
 
       <img width="400" alt="Grenade-on-screen" src="https://github.com/user-attachments/assets/166b51eb-86ea-4dd2-b0ee-fbfb3b433e7f" />
       <img width="400" alt="Grenade-off-screen" src="https://github.com/user-attachments/assets/524aa339-c7a6-4188-9253-7123012ded4f" />
 
-  - #### Skip Cinematic:
+  - #### Skip Cinematic
       Allows the player to skip cinematics by pressing a key (controller or keyboard), displaying the correct key depending on the input device.
 
       <img width="400" alt="Skip-cinematic" src="https://github.com/user-attachments/assets/50032863-a9da-4b8f-b489-1b4e7fd936b1" />
